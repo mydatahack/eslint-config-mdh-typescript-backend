@@ -15,10 +15,13 @@ const eslint = {
     'unicorn/filename-case': [
       'error',
       {
-        case: 'camelCase',
+        cases: {
+          camelCase: true,
+          pascalCase: true,
+        },
       },
     ],
-    'folders/match-regex': [2, '^[a-zA-Z_]+$', '/src/'],
+    'folders/match-regex': [2, '^[a-zA-Z_-]+$', '/src/'],
     'no-restricted-imports': ['error', { patterns: ['src/*'] }],
     'import/prefer-default-export': 0,
 
