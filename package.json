@@ -1,12 +1,23 @@
 {
   "name": "eslint-config-mdh-typescript-backend",
-  "version": "1.0.0",
+  "version": "1.0.0-add-semantic-release.1",
   "description": "Eslint config for backend TypeScript code",
+  "keywords": [
+    "eslint",
+    "backend",
+    "TypeScript",
+    "lint",
+    "config",
+    "mdh"
+  ],
   "main": "index.js",
   "repository": "git@github.com:mydatahack/eslint-config-mdh-typescript-backend.git",
   "author": "mdh",
   "license": "MIT",
   "private": false,
+  "scripts": {
+    "commit": "cz"
+  },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.14.0",
     "@typescript-eslint/parser": "^5.14.0",
@@ -18,5 +29,15 @@
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-unicorn": "^41.0.0",
     "prettier": "^2.5.1"
+  },
+  "devDependencies": {
+    "@commitlint/config-conventional": "^16.2.1",
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/commit-analyzer": "^9.0.2",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/npm": "^9.0.1",
+    "@semantic-release/release-notes-generator": "^10.0.3",
+    "commitizen": "^4.2.4",
+    "semantic-release": "^19.0.2"
   }
 }
