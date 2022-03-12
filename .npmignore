@@ -5,3 +5,6 @@ yarn-error.log
 CHANGELOG.md
 commitlint.config.js
 .czrc
+
+# folders
+.github
