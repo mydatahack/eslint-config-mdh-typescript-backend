@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/mydatahack/eslint-config-mdh-typescript-backend/compare/v1.0.0...v1.1.0) (2022-03-12)
+
+
+### Features
+
+* **lint:** update file name and folder name rules ([4a73f22](https://github.com/mydatahack/eslint-config-mdh-typescript-backend/commit/4a73f22d8748bb817c71c5e841a7aa80dea75277))
+
 # 1.0.0 (2022-03-12)
 
 
