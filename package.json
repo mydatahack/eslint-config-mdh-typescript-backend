@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-mdh-typescript-backend",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Eslint config for backend TypeScript code",
   "keywords": [
     "eslint",
