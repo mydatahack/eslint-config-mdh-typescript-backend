@@ -38,3 +38,5 @@ You man want to have a separate `tsconfig` for the linting to include test files
 To use prettier, add `"prettier": "eslint-config-mdh-typescript-backend/prettier"` to `package.json`.
 
 If you are not sure how to use it, take a look at [this repo](https://github.com/aws-lambda-template-generator/ts-graphql-hello-world-sam-cli) as an example.
+
+For TypeScript React eslint config, check out [eslint-config-mdh-typescript-react](https://www.npmjs.com/package/eslint-config-mdh-typescript-react).
