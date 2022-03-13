@@ -6,7 +6,7 @@ Eslint config for TypeScript backend code (e.g. Node.js application, Lambda func
 
 After installation, make sure to remove all the eslint and prettier related dependencies.
 
-Add `esling-config-mdh-typescript-backend` as part of `extends` in `.eslintrc.js` after installing the module.
+Add `eslint-config-mdh-typescript-backend` as part of `extends` in `.eslintrc.js` after installing the module.
 
 ```js
 module.exports = {
